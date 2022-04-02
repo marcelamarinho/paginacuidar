@@ -1,0 +1,54 @@
+body{
+    background:	#fbd1d2
+
+}
+
+#marcela {
+    width: 100%
+    
+}
+
+p {
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+#missao {
+   font-size: 40px
+  
+}
+
+h1 {
+   text-align: center
+
+}
+
+h2 {
+    text-align: center
+}
+
+
+em {
+    color: #968489 
+}
+
+.itens {
+    font-style: italic
+
+   }
+
+   .servicos {
+       
+   }
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+.imagemservicos {
+    width: 30%
+}
