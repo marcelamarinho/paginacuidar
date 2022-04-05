@@ -1,10 +1,21 @@
 header {
     background: 	#fbd1d2;
     width: 100%;
+    padding:20px 0;
 }
 
-#logo1 {
-    width: 30%;
+.caixa{
+   position: relative;
+    width: 940px;
+    margin: 0 auto;
+
+}
+
+nav{
+    position: absolute;
+    top: 250px;
+    right: 0;
+
 }
 nav li{
     display: inline;
