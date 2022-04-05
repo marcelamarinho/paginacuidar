@@ -1,5 +1,18 @@
-body{
-    background:	#fbd1d2
+.principal{
+    background:	#fbd1d2;
+    padding: 40px;
+}
+
+.titulo-principal{
+    padding: 20px;
+}
+
+#identidade {
+    display: inline;
+    font-size: 30px;
+    vertical-align: top;
+   
+
 
 }
 
@@ -15,32 +28,36 @@ p {
 }
 
 #missao {
-   font-size: 40px
+   font-size: 35px
   
 }
 
-h1 {
+.titulo_centralizado{
    text-align: center
 
 }
 
-h2 {
-    text-align: center
+.diamante{
+
+    width: 20%
+
 }
 
-
 em {
-    color: #968489 
+    color: #ce2f5c 
 }
 
 .itens {
-    font-style: italic
-
+    font-style: italic; 
+    
    }
 
-   .servicos {
+.servicos {
+    background: #FFFFFF;
+    padding: 20px;
        
    }
+
 ul {
     display: inline-block;
     vertical-align: top;
