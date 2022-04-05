@@ -3,8 +3,15 @@ header {
     width: 100%;
     padding:20px 0;
 }
+img {
+  
+        display: block;
+        margin-left: 0px;
+        
 
-.caixa{
+}
+
+.caixa {
    position: relative;
     width: 940px;
     margin: 0 auto;
