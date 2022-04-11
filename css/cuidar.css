@@ -1,50 +1,47 @@
+.titulo-principal{
+    padding: 40px;
+    background:	#fbd1d2;
+
+}
+#marcela {
+    width: 100%;
+    
+}
+
 .principal{
     background:	#fbd1d2;
     padding: 40px;
 }
 
-.titulo-principal{
-    padding: 20px;
+.titulo_centralizado{
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: #ce2f5c ;
 }
 
 #identidade {
-    display: inline;
+    display: inline-block;
     font-size: 30px;
-    vertical-align: top;
-   
-
-
-}
-
-#marcela {
-    width: 100%
-    
-}
-
-p {
+    vertical-align: 30px;
+    width: 70%;
     text-align: center;
-    font-size: 25px;
-    
-}
-
-#missao {
-   font-size: 35px
-  
-}
-
-.titulo_centralizado{
-   text-align: center
-
 }
 
 .diamante{
 
-    width: 20%
-
+    width: 20%;
+    margin:0 50;
+    border-radius: 50%;
 }
 
+#missao {
+   font-size: 30px;
+   text-align: center;
+   
+  }
+
 em {
-    color: #ce2f5c 
+    color: #ce2f5c ;
 }
 
 .itens {
@@ -61,11 +58,11 @@ em {
 ul {
     display: inline-block;
     vertical-align: top;
-    width: 20%;
+    width: 40%;
     margin-right: 15%;
 
 }
 
 .imagemservicos {
-    width: 30%
+    width: 30%;
 }
