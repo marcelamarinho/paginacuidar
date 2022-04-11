@@ -1,6 +1,7 @@
 header {
-    background: 	#fbd1d2;
-    width: 100vw;
+    background: #fbd1d2;
+    width: 100%;
+    text-align: center;
     
 }
 .img img {
@@ -9,7 +10,7 @@ header {
         max-height:150px;
         width: auto;
         height: auto;
-        margin: 0 0 20 0;
+        margin: 0 0 5 0;
 }
 
 .caixa {
@@ -24,11 +25,9 @@ nav{
     right: 0;
 }
 nav li{
-    display: flex;
+    display:flex;
     align-items: inline;
-    justify-content: flex-end;
-    position:relative;
-    vertical-align: auto;
+    vertical-align:baseline;
   
 }
 
@@ -38,9 +37,15 @@ nav a  {
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
-    position: relative;
+    position: block;
 
 }
+
+nav a:hover{
+    color: rgb(166, 243, 246);
+    text-decoration: underline;
+}
+
 
 .produtos {
     width: 940px;
@@ -55,27 +60,52 @@ nav a  {
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
     padding: 30px 10px ;
+    box-sizing: border-box;
     border: 2px solid #000000;
-    border-radius: 10px;
+   
 
 }
+.produtos li:hover{
+    border-color: rgb(166, 243, 246);
+  
+}
+.produtos li:active{
+    border-color: aqua;
+}
+
+.produtos li:hover h2{
+    font-size: 30px;
+
+}
+
 .produtos h2{
     font-size: 20px; 
-    font-weight: bold ;
+    font-weight: bold;
+    margin-bottom: 20px;
     
 }
 
 .produto-descricao{
     font-size: 15px;
     margin-top: 10px;
+    margin-bottom: 10px;
    }
 
 .produto-preco {
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+footer{
+    text-align: center;
+    background: rgb(166, 243, 246);
+    padding: 40px 0;
+}
+
+.copyright{
+    font-size: 8px;
+    margin: 5px;
 }
 
 
